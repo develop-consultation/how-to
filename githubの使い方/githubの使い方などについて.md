@@ -87,8 +87,8 @@ vsCodeでやる場合<br>
 
 ```
 ①git add <ファイル>
-②git commit <コメント>
-③git commit <対象ブランチ>
+②git commit -m <コメント>
+③git push <対象ブランチ>
 ```
 ![vsCodeでgitにファイル追加](image/2-3-2-2.gitCommand.jpg)<br>
 
