@@ -34,4 +34,7 @@ GitHubにアクセスし、下記の手順通りに公開鍵を登録する。
 3. New SSH Keyを押下
 4. Title(自由)、Key(コピーした内容をペースト)を入力して Add SSH keyを押下  
 以下のように登録される  
-![GitHubに公開鍵を設定](images/GitHubに公開鍵を設定.png)
+![GitHubに公開鍵を設定](images/GitHubに公開鍵を設定.png)  
+
+## 4. その他
+[githubの使い方](https://github.com/develop-consultation/how-to/blob/master/github%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/README.md)  
