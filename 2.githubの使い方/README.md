@@ -1,13 +1,9 @@
-<a id="top"></a>
-
 # githubの使い方などについて
 
 ## 目次
-1. [概要](#overview)
-2. [使い方](#howTo)
-3. [gitコマンド](#gitCommand)
-
-<a id="overview"></a>
+1. [概要](#1-概要〜githubとは〜)
+2. [使い方](#2-使い方)
+3. [gitコマンド](#3-gitコマンド)
 
 ## 1. 概要〜githubとは〜
 GitHubとは、Gitの仕組みを利用して、世界中の人々が自分の作品(プログラムコードやデザインデータなど)を保存、公開できるようにしたウェブサービスの名称。<br>
@@ -18,8 +14,6 @@ GitHubに作成されたリポジトリ（保存庫のようなもの）は、�
 余談として、GitHubには個人向けの他に組織（チーム）でリポジトリ管理するための **「organization」** が存在する。<br>
 ここで活用しているサービスは「organization」である。<br>
 ※詳細については、[Organizationとは](https://tonari-it.com/github-organization/)参照。
-
-<a id="howTo"></a>
 
 ## 2. 使い方
 ### 2-1. 事前準備
@@ -92,12 +86,10 @@ vsCodeでやる場合<br>
 ```
 ![vsCodeでgitにファイル追加](images/2-3-2-2.gitCommand.jpg)<br>
 
-<a id="gitCommand"></a>
-
 ## 3. gitコマンド
 * [【初心者】Gitコマンドの使い方を体系的に覚える【一覧あり】](https://kitsune.blog/git-command)<br>
 * [よく使うGitコマンド19選！使い方を初心者向けにわかりやすく解説](https://www.sejuku.net/blog/5816)<br>
 * [Gitでよく使うコマンド一覧](https://qiita.com/uhooi/items/c26c7c1beb5b36e7418e)<br>
 * [gitコマンド チートシート](https://qiita.com/TaaaZyyy/items/b2b68aec99789374a204)
 
-[トップに戻る](#top)
+[トップに戻る](#githubの使い方などについて)
