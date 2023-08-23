@@ -1,4 +1,4 @@
-# Dockerインストール
+# Dockerインストール及び設定
 
 ## 前提条件
 * OSはWindows11
