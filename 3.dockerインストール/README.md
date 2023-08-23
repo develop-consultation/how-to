@@ -1,7 +1,9 @@
 # Dockerインストール及び設定
 
 ## 前提条件
-* OSはWindows11
+* OSはWindows11  
+**※Windows10でも基本は同じ**  
+[参考サイト](https://ascii.jp/elem/000/004/127/4127643/)  
 
 ## 1. Windos機能有効化
 Windowsの機能の有効化または無効化を開く  
