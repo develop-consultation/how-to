@@ -1,16 +1,24 @@
 # Dockerインストール及び設定
 
 ## 前提条件
-* OSはWindows11  
-**※Windows10でも基本は同じ**  
+* OSはWindows11 Pro  
+**※Windows10 Proでも基本は同じ**  
 [参考サイト](https://ascii.jp/elem/000/004/127/4127643/)  
 
 ## 1. Windos機能有効化
 Windowsの機能の有効化または無効化を開く  
 * 以下機能にチェックをつける  
-  * Hyper-v  
+  * Hyper-V  
   * Linux用Windowsサブシステム  
   * 仮想マシンプラットフォーム  
+**※インストールするWindowsのエディションが「Home」の場合、「Hyper-V」は提供されてないため、下記サイト参考・・・おすすめは①、②**  
+[①公式ドキュメント](https://docs.docker.jp/docker-for-windows/install-windows-home.html)  
+[②Windows 10 HomeへのDocker Desktop (ver 3.0.0) インストールが何事もなく簡単にできるようになっていた (2020.12時点)](https://qiita.com/zaki-lknr/items/db99909ba1eb27803456)  
+[③Hyper-V版DockerからWSL2版Dockerに乗り換えた時にやったことメモ（Previewビルドなし）](https://qiita.com/Ayutanalects/items/129c2bfa23a249505e2e)  
+[④Docker for Windows Hyper-VではなくWSL2を使う](https://cfautog.tokyo/2020/11/04/docker-for-windows-wsl2/)  
+「Hyper-V」を後から入れる方法（任意）  
+[Windows 10や11のHomeエディションでHyper-Vを利用する方法](https://4thsight.xyz/36873)  
+[Windows11 Homeで仮想環境（Hyper-V）を作成する方法](https://jo-sys.net/win11home-hyperv/)  
 ![Windowsの機能①](images/Windowsの機能①.png)  
 ![Windowsの機能②](images/Windowsの機能②.png)
 
