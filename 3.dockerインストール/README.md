@@ -26,8 +26,36 @@ OKボタン押下後、再起動
 
 ## 2. Dockeデスクトップインストール
 [Dockerデスクトップ](https://www.docker.com/products/docker-desktop/)よりダウンロード及びインストール  
-![Dockerデスクトップダウンロード](images/Dockerデスクトップダウンロード.png)
+![Dockerデスクトップダウンロード](images/Dockerデスクトップダウンロード_ver2.png)  
 
+### 2.1. DLすべきはAMDかARMか？
+結論：  
+AMD／ARMとは  
+プロセッサーのアーキテクチャの種類（名称）  
+違いについてはこちらのサイトがわかりやすかったのでメモ。
+[OSとCPUのアーキテクチャー ARM x86 x64の違い](https://it-textbook.com/archives/617)  
+プロセッサとは？  
+→[ハードウェア／CPU](https://wa3.i-3-i.info/word11281.html)  
+アーキテクチャとは？  
+→[構造](https://wa3.i-3-i.info/word16015.html)  
+プロセッサーのアーキテクチャ  
+Ubuntuで次のように入力すると  
+CPUのアーキテクチャ（処理方式）が確認可能。  
+```
+ubuntu@syunhigu-carbon:~$ uname -m
+x86_64
+ubuntu@syunhigu-carbon:~$
+```
+
+PC＞設定＞システム＞バージョン情報＞システムの種類でも確認可能で  
+```
+システムの種類：64 ビット オペレーティング システム、x64 ベース プロセッサ
+```
+
+上記の使用しているPCはx86_64。  
+つまり、「AMD64」と同義のよう。  
+※「x64」と略されることが多い。  
+[【学習メモ】Docker環境構築メモ（Windows 11 HOME）](https://qiita.com/OdaAyaka/items/a456c607bb62a38afc86)  
 ## 3. Linuxカーネル更新プログラムパッケージ
 [Linuxカーネル更新プログラムパッケージ](https://learn.microsoft.com/ja-jp/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)よりダウンロード及びインストール  
 ![Linuxカーネル更新プログラムパッケージ](images/Linuxカーネル更新プログラムパッケージ.png)
